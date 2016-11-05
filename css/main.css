@@ -1,0 +1,93 @@
+/* Style Sheet for MedStatStudio Portfolio */
+
+
+/* Text */
+
+p {
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+
+/* Links */
+
+a:hover {
+    text-decoration: none;
+    font-weight: bold;
+ 		
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+
+/* Headings */
+
+h1 {
+    font-family: "Inconsolata", monospace;
+    font-size: 500%;
+    padding: 0;
+    margin: 0;
+ 
+}
+
+h2 {
+    font-family: "Inconsulata", monospace;
+    font-size: 300%;
+    padding: 0;
+    margin: 0;
+}
+
+h3 {   
+    font-family: "Inconsolata", monospace;
+    font-size: 200%;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Columns */
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    text-align: center;
+}
+
+.col-1 {
+    width: 8.3%
+}
+
+.col-2 {
+    width: 16.7%
+}
+
+.col-3 {
+    width: 25%
+}
+
+.col-4 {
+    width: 33.3%
+}
+
+.col-5 {
+    width: 41.7%
+}
+
+.col-6 {
+    width: 50%	       
+}
+
+.col-8 {
+    width: 66.7%
+}
+
+.col-10 {
+    width: 83.3%
+}
