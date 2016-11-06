@@ -57,11 +57,17 @@ h3 {
 
 /* Columns */
 
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .row {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    padding: 10px;
     text-align: center;
 }
 
