@@ -103,6 +103,10 @@ h3 {
     width: 83.3%;
 }
 
+.col-12 {
+    width: 100%;
+}
+
 /* Images */
 
 .works-image {
