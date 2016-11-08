@@ -35,7 +35,7 @@ a:visited {
 
 h1 {
     font-family: "Inconsolata", monospace;
-    font-size: 500%;
+    font-size: 400%;
     padding: 0;
     margin: 0;
 }
@@ -111,20 +111,25 @@ h3 {
 
 .main-image {
     width: 100%;
+    height: auto;
 }
 
 @media only screen and (max-width: 500px) {
     .col-4 {
         width: 100%;
-        padding: 10px;
+        text-align: center;
+    }
+
+    .col-6 {
+        width: 100%;
         text-align: center;
     }
 
     h1 {
-        font-size: 300%;
+        font-size: 200%;
     }
 
     h2 {
         font-size: 200%;
-    }
+    };
 }
